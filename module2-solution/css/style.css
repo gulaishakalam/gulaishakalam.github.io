@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu{
+	margin: 20px;
+  text-align: center;
+}
+.container{
+	position: relative;
+	margin: 20px;
+  top: 40px;
+}
+.q{
+	position: relative;
+	top: 0;
+	background-color: blueviolet;
+	margin: 15px;
+	padding: 25px;
+	border: 3px solid black;
+}
+
+.q p{
+	margin-top: 20px;
+	text-align: justify;
+	font-size: 100%;
+}
+.h{
+	position: absolute;
+	border-left: 3px solid black;
+	border-bottom: 3px solid black;
+	padding: 2px 50px;
+	color: white;
+	top: 0;
+	right: 0;
+	
+}
+
+#f{
+	background-color:red;
+}
+#s{
+	background-color:green;
+}
+#t{
+	background-color:yellowgreen;
+}
+/*Desktop*/
+
+@media (min-width: 992px){
+  .col-lg-4 {
+    float: left;  
+  }
+ 
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  
+
+}
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-navindevice{
+   width: 100%;
+   float: left;
+ }
+}
+
+
+/*Mobile*/
+@media (max-width: 767px){
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+}
